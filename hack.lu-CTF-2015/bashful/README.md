@@ -13,9 +13,9 @@ URL: https://school.fluxfingers.net:1503
 
 Peserta diberikan soal dimana sebuah website dapat meng-handle Bash script. Sebenarnya kami tidak berhasil tepat waktu menyelesaikan tantangan yang satu ini tepat waktu, tapi tidak ada salahnya kami membagikan cara penyelesaiannya.
 <br />
-Jadi, pada soal tantangan kali ini kami mencoba untuk melakukan serangan <i>command injection</i> melalui header tepatnya pada sisi <i>User-Agent</i>. Kami menggunakan <i>trigger exploit</i> <b>Shellshock</b> untuk mengetes kerentanan apakah Bash yang terdapat pada situs ini memiliki kerentanan akan serangan tersebut.
+Jadi, pada soal tantangan kali ini kami mencoba untuk melakukan command injection melalui header tepatnya pada sisi User-Agent. Kami menggunakan trigger exploit <b>Shellshock</b> untuk mengetes kerentanan apakah bash yang terdapat pada situs ini memiliki kerentanan akan serangan tersebut.
 <br />
-Kemudian , untuk mencoba trigger exploit tersebut kami menggunakan curl untuk menjalankan custom <i>User-Agent</i> yang sebelumnya sudah kami beri trigger exploitnya. Selanjutnya kami menjalankan <i>directory listing</i> pada direktori /bin <br />
+Kemudian , untuk mencoba trigger exploit tersebut kami menggunakan curl untuk menjalankan custom User-Agent yang sebelumnya sudah kami beri trigger exploitnya. Selanjutnya kami menjalankan perintah untuk melaksanakan directory listing pada direktori /bin <br />
 ```bash
 curl -A "() { :;}; /bin/ls;" https://school.fluxfingers.net:1503/?sessid=sessid_anda
 ```
