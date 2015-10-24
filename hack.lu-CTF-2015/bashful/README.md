@@ -11,7 +11,7 @@ You've got the source, you've got the skills. 0wn the shit out of this and show 
 
 URL: https://school.fluxfingers.net:1503
 
-Peserta diberikan soal dimana sebuah website dapat meng-handle Bash script. Sebenarnya kami tidak berhasil tepat waktu menyelesaikan tantangan yang satu ini tepat waktu, tapi tidak ada salahnya kami membagikan cara penyelesaiannya.
+Peserta diberikan soal dimana sebuah website dapat meng-handle Bash script. Sebenarnya kami tidak berhasil tepat waktu menyelesaikan tantangan yang satu ini, tetapi tidak ada salahnya kami membagikan cara penyelesaiannya.
 <br />
 Jadi, pada soal tantangan kali ini kami mencoba untuk melakukan command injection melalui header tepatnya pada sisi User-Agent. Kami menggunakan trigger exploit <b>Shellshock</b> untuk mengetes kerentanan apakah bash yang terdapat pada situs ini memiliki kerentanan akan serangan tersebut.
 <br />
