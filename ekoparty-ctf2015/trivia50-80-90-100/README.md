@@ -17,7 +17,7 @@ Deskripsi soal:
 <pre>
 What is the favorite music artist of the last hacker serie? (without spaces) 
 </pre>
-Soluso: Untuk mencari url yang menyangkut mengenai artis musik favorit yang ada pada sekuel Mr.Robot kami menggunakan situs http://imdb.com untuk menggali informasi dari sekuel ini. 
+Solusi: Untuk mencari url yang menyangkut mengenai artis musik favorit yang ada pada sekuel Mr.Robot kami menggunakan situs http://imdb.com untuk menggali informasi dari sekuel ini. 
 Disitus tersebut banyak membahas mengenai beberapa film termasuk Mr.Robot. Hasil yang kami temukan adalah pada url berikut :
 http://www.imdb.com/title/tt4158110/?ref_=fn_al_tt_1 kemudian membaca Trivianya di url yang terkait pada halaman tersebut disini http://www.imdb.com/title/tt4158110/trivia?ref_=tt_ql_2 , dan setelah membaca cukup ada beberapa bahasan yang menarik pada item ini http://www.imdb.com/title/tt4158110/trivia?item=tr2590375
 Kata kunci 'Pink Floyd' sepertinya cukup meyakinkan untuk kami coba submit ( walau hanya masih mengira - ngira ). Setelah disubmit ternyata gagal, kami baru ingat bahwa "without spaces".
