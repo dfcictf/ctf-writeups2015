@@ -7,7 +7,7 @@ everyone dies due to internal bleedings.
 1.ctf.link:1123
 </pre>
 Pada soal ini peserta diberikan soal web yang beralamat di http://1.ctf.link:1123, melihat beberapa konten yang disediakan kami berpikir celah yang dapat ditemukan pada web tersebut adalah LFI ( Local File Inclusion ) itu diketahui dari salah satu halaman about maupun guestbook.
-Soal ini terbilang cukup mudah karena celah sudah kita ketahui letak celahnya, untuk mengecek kebenaran akan celah tersebut dapat kita cek bagian /etc/passwd ( http://1.ctf.link:1123/index.php?page=/etc/passwd ). Tapi tujuan kita disini adalah mencari file flagnya, maka dari itu untuk mencari file flag tersebut kami mencoba melakukan bruteforce dan mengecek pattern dari flag dengan format "hxp{....}". 
+Soal ini terbilang cukup mudah karena celah sudah kita ketahui sebelumnya, untuk mengecek kebenaran akan celah tersebut dapat kita cek bagian /etc/passwd dengan memanfaatkan parameter "?page=" yang akan meload tiap file yang akan kita cari ( http://1.ctf.link:1123/index.php?page=/etc/passwd ). Tapi tujuan kita disini adalah mencari file flagnya, maka dari itu untuk mencari file flag tersebut kami mencoba melakukan bruteforce dan mengecek pattern dari flag dengan format "hxp{....}". 
 Kami menggunakan python untuk melakukan proses bruteforcing ini, berikut codenya: 
 
 ```python
