@@ -13,8 +13,8 @@ Maka hasil yang didapat adalah: <br />
 <br /><br />
 Setelah di-decode didapatkan hasil: 
 <pre>
-3524: FLAG 
-47 -> IS
+3524  : FLAG 
+47    : IS
 </pre>
 Lalu bagian angka setelah angka 47 tidak dapat ter-decode secara baik, mengingat kembali kita diberikan sebuah file "words.txt" maka sejenak kami berpikir kembali ( soal ini terbilang yang paling lama kami coba - coba dengan alasan stuck serta nyaris saja menyerah ).
 Menganalisa sisa bagian tersebut kami mencoba untuk menghitung jumlah karakter yang ada pada sisa bagian angka tersebut. Setelah mendapatkan hasilnya yaitu 64 bytes, dengan ini kami membandingkan pada data di salah satu baris "words.txt". 
