@@ -80,7 +80,34 @@ def main():
 if __name__ == '__main__':
 	main()
 ```
-Ditemukan output yaitu kode python. Jadi dapat disimpulkan pada kategori ini melakukan beberapa 'bom challenge'. Maka tahapan selanjutnya output tersebut akan saya move kedalam file dengan ekstensi *.py. Kembali lagi menambah serta sedikit modifikasi kode terhadap kode python diatas.
+Ditemukan output yaitu kode python seperti berikut ini.
+```python
+a = '70 76 65 71 95 71 48 68 95 68 65 77 78 95 66 82 48 95 85 95 82 95 83 48 95 67 48 48 76 95 68 69 67 82 89 80 84 79 82'
+
+mas=[]
+
+mas=a.split(' ')
+
+for i in range(len(mas)):
+	b=int(mas[i])
+	c=hex(b)
+	print(c, end=' ')
+
+print('')a = '70 76 65 71 95 71 48 68 95 68 65 77 78 95 66 82 48 95 85 95 82 95 83 48 95 67 48 48 76 95 68 69 67 82 89 80 84 79 82'
+
+mas=[]
+
+mas=a.split(' ')
+
+for i in range(len(mas)):
+	b=int(mas[i])
+	c=hex(b)
+	print(c, end=' ')
+
+print('')
+```
+
+Jadi dapat disimpulkan pada kategori ini melakukan beberapa 'bom challenge'. Maka tahapan selanjutnya output tersebut akan saya move kedalam file dengan ekstensi *.py. Kembali lagi menambah serta sedikit modifikasi kode terhadap kode python diatas.
 ```python
 import base64
 
