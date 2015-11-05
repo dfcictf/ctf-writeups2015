@@ -19,4 +19,5 @@ Setelah cek history terdapat perintah-perintah yang sangat menarik untuk dicoba.
 echo $(cat flag.txt)
 ```
 Perintah cat dapat dijalankan dengan mengetik perintah diatas dan telihat flagnya.
+<br />
 Flag: <b>4dm1n_1s_1mp0r74nt_m^^mk3y</b>
