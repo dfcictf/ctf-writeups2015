@@ -4,6 +4,10 @@ Solved by: <b>Wizz</b>
 Follow the white rabbit! Khm.. I mean "file" 
 http://school-ctf.org/files/start_dec1dd9b04e5e6f51e017573270dec210106031a.zip
 </pre>
+Pembahasan dari soal ini sebenarnya sangat simple, soal ini terdiri dari arsip dengan terdapat beberapa folder dan file txt. Silahkan extrak terlebih dulu.
+Saat membuka folder “start”maka akan terdapat beberapa folder dan file start.txt.
+
+Pada file tersebut sudah terdapat huruf pertama dari flag. File sudah berisi path atau directory lengkap ke file berikutnya. Dan tinggal membuka file berikutnya yang berisi huruf dari flag dan path dari file selanjudnya. Setelah menggabungkan huruf dari file file yg tunjukan maka akan mendapat sebuah flag.
 
 <h3>Another Solving Method</h3>
 Code by: <b>snoww0lf</b><br />
