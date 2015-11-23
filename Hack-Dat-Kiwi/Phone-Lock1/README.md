@@ -1,6 +1,7 @@
 Deskripsi soal:
 <pre>
-http://819bc7.hack.dat.kiwi/web/phone-lock/
+Link: http://c4c045.hack.dat.kiwi/web/phone-lock/
+I forgot my phone password, can you help me unlock it? (Don't judge, happens to us all)
 </pre>
 <h3>Solved by: snoww0lf</h3>
 Pada tantangan kali ini peserta diberikan sebuah url dimana kita harus menebak pola pin dari sebuah ponsel.
