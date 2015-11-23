@@ -3,7 +3,7 @@ Deskripsi soal:
 Link: http://c4c045.hack.dat.kiwi/crypto_stegano/vigenere/vigenere.php?mode=2
 So you got crypto skills, right? Try it again on Known Plaintext Mode:
 </pre>
-<b>Solved by: ArtOfS</b>
+<b>Solved by: ArtOfS</b><br />
 Pada challenges ini kami diberikan plaintext dan ciphernya. Untuk mencari keynya dapat digunakan Rumus : (Cipher-Plain)%26 dengan asumsi [A-Z]=[0-25]
 Dengan sedikit pengetahuan python saya membuat skrip untuk mendapatkan keynya, berikut skripnya: 
 ```python
