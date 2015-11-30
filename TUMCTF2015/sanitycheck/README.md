@@ -20,6 +20,6 @@ VmpOU00xcFhlRmRYUjFaSFdrWldhVkpZUW1GV2EyUXdDazVHU2tkalJGbExWRlZTCmMxSkdjRFpO
 Ukd4RVdub3dPVU5uUFQwSwo=
 </pre>
 Ini adalah kategori Misc yang paling mudah, dilihat dari encodenya ini adalah base64 yang di-encode sebanyak <b>n</b> kali.
-Setelah men-decodenya didapatkan flag hxp{w3lc0me_t0_th3_jungl3}
+Setelah men-decodenya didapatkanlah flagnya.
 <br />
 Flag: <b>hxp{w3lc0me_t0_th3_jungl3}</b>
