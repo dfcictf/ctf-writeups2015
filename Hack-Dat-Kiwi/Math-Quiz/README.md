@@ -1,7 +1,7 @@
 Deskripsi soal:
 <pre>
-So I got this douchy classmate that thinks he's super cool. He created a math quiz software for our class in 10 minutes, and claims its super secure with protections and everything. We all hate him, and if you hack his code, we're gonna love you! By the way, he told a friend of mine that he keeps his secrets among the quiz questions, but those questions are never used in the software.
 Link: http://819bc7.hack.dat.kiwi/web/math-quiz/
+So I got this douchy classmate that thinks he's super cool. He created a math quiz software for our class in 10 minutes, and claims its super secure with protections and everything. We all hate him, and if you hack his code, we're gonna love you! By the way, he told a friend of mine that he keeps his secrets among the quiz questions, but those questions are never used in the software.
 </pre>
 <h3>Solved by: snoww0lf</h3>
 Challenge ini terbilang cukup menarik, disini saya hanya melakukan sedikit lucky method untuk mendapatkan flagnya.
